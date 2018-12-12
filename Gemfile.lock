@@ -243,6 +243,7 @@ DEPENDENCIES
   momentjs-rails (>= 2.9.0)
   pg (~> 0.21)
   pg_search
+  pry
   pry-byebug
   pry-rails
   puma
@@ -262,4 +263,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.6
+   1.17.2
