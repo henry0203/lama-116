@@ -1,5 +1,7 @@
 class Lama < ApplicationRecord
-  mount_uploader :photo, PhotoUploader
+  if :photo.nil?
+    mount_uploader :photo, PhotoUploader
+  end
 
   belongs_to :user
   has_many :reviews, dependent: :destroy

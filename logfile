@@ -16,3 +16,18 @@
 2018-12-09 22:05:35.813 CET [74960] ERROR:  database "lama-116_development" is being accessed by other users
 2018-12-09 22:05:35.813 CET [74960] DETAIL:  There is 1 other session using the database.
 2018-12-09 22:05:35.813 CET [74960] STATEMENT:  DROP DATABASE IF EXISTS "lama-116_development"
+2018-12-16 22:19:32.780 CET [15425] ERROR:  database "lama-116_development" is being accessed by other users
+2018-12-16 22:19:32.780 CET [15425] DETAIL:  There are 2 other sessions using the database.
+2018-12-16 22:19:32.780 CET [15425] STATEMENT:  DROP DATABASE IF EXISTS "lama-116_development"
+2018-12-16 22:19:56.620 CET [15446] ERROR:  database "lama-116_development" is being accessed by other users
+2018-12-16 22:19:56.620 CET [15446] DETAIL:  There are 2 other sessions using the database.
+2018-12-16 22:19:56.620 CET [15446] STATEMENT:  DROP DATABASE IF EXISTS "lama-116_development"
+2018-12-16 22:20:22.174 CET [15478] ERROR:  database "lama-116_development" is being accessed by other users
+2018-12-16 22:20:22.174 CET [15478] DETAIL:  There is 1 other session using the database.
+2018-12-16 22:20:22.174 CET [15478] STATEMENT:  DROP DATABASE IF EXISTS "lama-116_development"
+2018-12-16 22:26:29.933 CET [15716] ERROR:  database "lama-116_development" is being accessed by other users
+2018-12-16 22:26:29.933 CET [15716] DETAIL:  There is 1 other session using the database.
+2018-12-16 22:26:29.933 CET [15716] STATEMENT:  DROP DATABASE IF EXISTS "lama-116_development"
+2018-12-16 22:43:37.983 CET [16359] ERROR:  database "lama-116_development" is being accessed by other users
+2018-12-16 22:43:37.983 CET [16359] DETAIL:  There is 1 other session using the database.
+2018-12-16 22:43:37.983 CET [16359] STATEMENT:  DROP DATABASE IF EXISTS "lama-116_development"

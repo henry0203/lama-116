@@ -8,7 +8,7 @@
         <div class='row'>
           <% @lamas.each do |lama| %>
             <%= link_to lama_path(lama), class: "card-link" do %>
-              <div class="card " style="background-image: linear-gradient(-225deg, rgba(256,0,0,0.4) 0%, rgba(0,0,0,0.3) 50%), url('');">  <!-- cl_image_path lama.photo, gravity: :face -->
+              <div class="card " style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 50%), url('<%= cl_image_path lama.photo, gravity: :face %>');">  <!-- cl_image_path lama.photo, gravity: :face -->
                 <h4><%= lama.name %></h4>
               </div>
             <% end %>
